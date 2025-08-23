@@ -1,0 +1,311 @@
+# SSL/TLS Certificates and Keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.p7b
+*.p7c
+*.p7s
+
+# Environment Variables and Configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+config.json
+secrets.json
+credentials.json
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+database.sql
+*.sql
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# Application specific
+uploads/
+public/uploads/
+private/
+secure/
+backup/
+archive/
+
+# Session files
+sessions/
+*.session
+
+# Cache directories
+.cache/
+cache/
+
+# Build outputs
+build/
+dist/
+out/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database dumps
+*.dump
+*.sql.bak
+
+# API keys and tokens
+api_keys.txt
+tokens.txt
+secrets.txt
+
+# User data and personal information
+users_data/
+personal/
+private_data/
+
+# Configuration files with sensitive data
+config.local.js
+settings.local.js
+database.local.js
+
+# SSL certificate directories
+ssl/
+certs/
+certificates/
+
+# Private keys and certificates
+private/
+keys/
+certs/
+
+# Backup and archive files
+backups/
+archives/
+*.tar.gz
+*.zip.bak
+
+# Session and cache files
+sessions/
+cache/
+temp/
+
+# Log files with sensitive information
+*.log
+logs/
+error.log
+access.log
+
+# Database connection files
+connection.local.js
+db.local.js
+
+# Environment specific files
+.env.local
+.env.production
+.env.staging
+
+# Security and authentication files
+auth/
+security/
+*.auth
+*.secure
+
+# File upload directories (may contain sensitive data)
+uploads/
+public/uploads/
+private/uploads/
+
+# Temporary and cache directories
+tmp/
+temp/
+.cache/
+
+# Build and distribution files
+build/
+dist/
+out/
+
+# Test and development files
+test/
+tests/
+spec/
+coverage/
+
+# Documentation with sensitive information
+docs/private/
+docs/internal/
+docs/confidential/
+
+# Backup and version control
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# System and hidden files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Package manager specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Application specific sensitive files
+voting_config.json
+admin_credentials.json
+user_data.json
+election_results.json
+candidate_private_info.json
